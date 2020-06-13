@@ -40,7 +40,6 @@ p a
 # 	if num % a == 0
 # 		num = num / a
 # 		n << a
-# 		a += 1
 # 	else
 # 		a += 1
 # 	end
