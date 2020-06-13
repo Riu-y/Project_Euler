@@ -12,16 +12,16 @@
 #   2つの項を代入する
 
 sum = 0
-	a = 0
-	b = 1
-		while (sum < 4000000) do
-			c = a + b
-				if c.even?
-					sum += c
-				end
+a = 0
+b = 1
+	while (sum < 4000000) do
+		c = a + b
+			if c.even?
+				sum += c
+			end
 		a = b
 		b = c
-end
+	end
 p sum
 
 
