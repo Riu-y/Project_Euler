@@ -31,13 +31,14 @@ end
 
 p a
 
-# NG集
+# # NG集(無駄に配列に入れていた)
 # a = 2
 # num = 600851475143
 # n = []
 
-# while a < num do
+# while a <= num  do
 # 	if num % a == 0
+# 		num = num / a
 # 		n << a
 # 		a += 1
 # 	else
